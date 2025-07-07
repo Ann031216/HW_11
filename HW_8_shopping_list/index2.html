@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clickable List with Checkbox</title>
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 10px;
+            cursor: pointer;
+            transition: background 0.2s;
+            display: flex;
+            align-items: center;
+        }
+        /* Red background only while clicking */
+        li:active {
+            background: red;
+            color: #fff;
+        }
+        li input[type="checkbox"] {
+            margin-right: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <ul id="itemList">
+        <li><input type="checkbox">Apples</li>
+        <li><input type="checkbox">Bread</li>
+        <li><input type="checkbox">Milk</li>
+    </ul>
+</body>
+</html>

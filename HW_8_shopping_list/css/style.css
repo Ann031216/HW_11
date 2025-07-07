@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    background: #3B3F45;
+    color: #FF8984;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 793px;
+    height: 507px;
+    background: #3B3F45;
+    border: 8px ridge #FFFFFF;
+}
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 19px 0 12px;
+    background: #4A4F56;
+}
+.title {
+    font-size: 1.333em;
+    margin-bottom: 5px;
+}
+.sub-title {
+    font-size: 0.888em;
+    font-weight: 200;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 15px 50px;
+    gap: 45px;
+}
+.list {
+    list-style: none;
+    width: 534px;
+    color: #fff;
+}
+.list__item {
+    padding: 12px;
+    background: #88839E;
+}
+
+.list__item:nth-child(even) {
+    background: #7A7593;
+}
+.list__item:hover {
+    background: #cebbec4d;
+    border-bottom: 2px solid #FFFFFF;
+    border-top:2px solid #FFFFFF;
+}
+.list__item:active {
+ background: #FF8984;
+}
+.list__inpt {
+    margin-right: 10px;
+}
+.list__label {
+    font-size: 1em;
+
+}
+.list__label > span {
+    font-size: 0.611em;
+}
+.list__inpt:checked ~ .list__label {
+    text-decoration: line-through;
+    color: #b6b3c7;
+}
+span::before {
+  content: "(";
+}
+span::after {
+    content: ")";
+}
