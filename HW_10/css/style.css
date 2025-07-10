@@ -1,0 +1,139 @@
+@import url('./normalize.css');
+
+body {
+    font-size: 200%;
+    color: #FFFFFF;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+*
+{transition: all .1s ease-in;
+}
+.main {
+    display: flex;
+    width: 1440px;
+    height: 900px;
+    border: 25px;
+    background:#3399CC;
+    border: 25px;
+    border-color: #2B81AC;
+    border-style: solid; 
+    justify-content: flex-start;
+    /*align-items: center;*/
+    flex-direction: column;
+    
+}
+
+.title {
+    font-size: 21px;
+    color:#FFFFFF ;
+    padding: 16px 8px;
+}
+
+
+.cities {
+    display: flex;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 0;
+    border: 4px solid #FFFFFF;
+    width: 1166px;
+    height: 588px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cities_item_full{
+    display: block;
+    font-size: 21px;
+    width: 100%;
+    border: 2px solid #FFFFFF;
+    text-align: center;
+    line-height: normal;
+    justify-content: center;
+    flex-grow: 1;
+}
+.cities_item_half {
+    display: block;
+    font-size: 21px;
+    width: 50%;
+    text-align: center;
+    line-height: normal;
+    justify-content: center;
+    
+}
+.cities_item_quarter {
+    display: block;
+    font-size: 21px;
+    width: 25%;
+    text-align: center;
+    line-height: normal;
+    justify-content: center;
+    
+}
+.city_1 {
+    
+    background: #75c5ec;
+    border: 2px solid #FFFFFF;
+}
+.city_2 {
+    
+    background: #33CCCC;
+    border: 2px solid #FFFFFF;
+}
+.city_3 {
+    
+    background: #996699;
+    border: 2px solid #FFFFFF;
+}
+.city_4 {
+    
+    background: #C24747;
+    border: 2px solid #FFFFFF;
+}
+.city_5 {
+    background: #E2674A;
+    border: 2px solid #FFFFFF;
+}
+.city_6 {
+    
+    background: #FFCC66;
+    border: 2px solid #FFFFFF; 
+}
+.city_7 {
+    background: #99CC99;
+    border: 2px solid #FFFFFF;
+    
+}
+.city_8 {
+    background: #669999;
+    border: 2px solid #FFFFFF; 
+}
+.city_9 {
+     background: #CC6699;
+    border: 2px solid #FFFFFF;
+}
+.city_10 {
+    
+    background: #339966;
+    border: 2px solid #FFFFFF;
+}
+.city_11 {
+    
+    background: #666699;
+    border: 2px solid #FFFFFF;
+}
+i::before {
+    font-size: 20px;
+}
+.text_block {
+    margin-top: 26px;
+   /* margin-right: auto;*/
+    width: 100px;
+    height: 94px; 
+}
+
+.footer {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    margin-top: 50px;
+}
