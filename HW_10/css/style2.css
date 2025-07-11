@@ -139,7 +139,7 @@ i::before {
 }
 .text_block {
     margin-top: 26px;
-    width: 100px
+    width: 80px;
     height: 94px; 
     word-wrap: break-word;
 }
